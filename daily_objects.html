@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<html>
+  <head>
+    <title>DailyObjects</title>
+    <style>
+      a {
+        text-decoration: none;
+      }
+      .main-container {
+        width: 650px;
+        margin:auto;
+      }
+      .top-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      .new-launch-image {
+        width: 100%;
+        background-color: #f7b6b7;
+        background-image: url("https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875");
+      }
+      .new-launch-image-text {
+        width: 60%;
+        margin-left: 5%;
+      }
+      .main-heading {
+        color: black;
+      }
+      .text {
+        color: black;
+      }
+      .best-in-offer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #bbbbbb;
+        width: 100%;
+      }
+      .best-in-offer-heading {
+        color: black;
+        margin-bottom: 0px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .best-in-offer-text {
+        color: black;
+        margin-top: 6px;
+        text-transform: uppercase;
+      }
+      .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      .first-feature,
+      .second-feature,
+      .third-feature,
+      .fourth-feature {
+        height: 320px;
+        width: 320px;
+        background-color: #bbbbbb;
+      }
+      .bottom-section {
+        width: 100%;
+      }
+      .first-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .second-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .bottom-option {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+      }
+      .first-option,.second-option,.third-option,.fourth-option{
+        width: 200px;
+        height:200px;
+      }
+      
+
+      @media screen and (max-width: 600px) {
+        .main-container {
+          width: 100%;
+        }
+        .feature{
+          display: flex;
+          flex-direction: column;
+        }
+        .first-feature,
+      .second-feature,
+      .third-feature,
+      .fourth-feature {
+        height: 100%;
+        width: 100%;
+        background-color: #bbbbbb;
+        margin-bottom:10px;
+      }
+      .first-section,.second-section{
+        display: flex;
+        flex-direction:column;
+      }
+      .bottom-option{
+      display: flex;
+      flex-direction: column;
+      width:80%;
+      margin:auto;
+      }
+      .bottom-text{
+        text-align: center;
+      }
+      .first-option,.second-option,.third-option,.fourth-option{
+        width: 100%;
+        height:auto;
+        margin-bottom:5px;
+      }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="top-section">
+        <div class="new-launch-image">
+          <a href="#" target="_blank">
+            <div class="new-launch-image-text">
+              <h3 class="main-heading">Just<br />Launched<br />Mirror Cases</h3>
+              <p class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent tincidunt purus interdum turpis fermentum pharetra.
+                Donec tempor, orci vitae aliquam maximus, dolor tortor lobortis
+                justo, nec dapibus ante magna ut velit. Mauris consectetur leo
+                ac dictum eleifend. Maecenas scelerisque nisi magna, at aliquam
+                est ornare ac.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="best-in-offer">
+          <a href="#" target="_blank">
+            <div class="best-in-offer-text-container">
+              <h3 class="best-in-offer-heading">Best In Offer</h3>
+              <p class="best-in-offer-text">Buy one get one free</p>
+            </div>
+          </a>
+        </div>
+      </div>
+        <div class="middle-section">
+        <div class="feature" style="margin-top:10px;">
+          <div class="first-feature">
+            <a href="#" target="_blank">
+              <img
+                class="image"
+                style="height:100%;width:100%;"
+                src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+              />
+            </a>
+          </div>
+          <div class="second-feature">
+            <a href="#" target="_blank">
+              <img
+                class="image"
+                style="height:100%;width:100%;"
+                src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="feature">
+          <div class="third-feature">
+            <a href="#" target="_blank">
+              <img
+                class="image"
+                style="height:100%;width:100%;"
+                src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+              />
+            </a>
+          </div>
+          <div class="fourth-feature">
+            <a href="#" target="_blank">
+              <img
+                class="image"
+                style="height:100%;width:100%;"
+                src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-section">
+        <div class="first-section">
+          <div class="bottom-text">
+            <h3>
+              Social Media <br />
+              Of The Week
+            </h3>
+          </div>
+          <div class="bottom-option">
+            <div class="first-option">
+              <a href="#" target="_blank">
+                <img  style="height:100%;width:100%;"
+                  src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+                  
+                />
+              </a>
+            </div>
+            <div class="second-option">
+              <a href="#" target="_blank">
+                <img  style="height:100%;width:100%;"
+                  src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+                  
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="second-section">
+          <div class="bottom-option">
+            <div  class="third-option">
+              <a href="#" target="_blank">
+                <img style="height:100%;width:100%;"
+                  src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+                  
+                />
+              </a>
+            </div>
+            <div class="fourth-option">
+              <a href="#" target="_blank">
+                <img style="height:100%;width:100%;"
+                  src="https://cdn.shopify.com/s/files/1/0977/9950/files/005_Wasurenagusa_500.jpg?4713534519169600875"
+                  
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bottom-text">
+            <h3>The Week</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
